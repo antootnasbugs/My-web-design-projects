@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="calcolatrice">
+      <input id="display" readonly />
+      <div id="pulsanti">
+        <button onclick="append('0')" class="numberButton">0</button>
+
+        <button onclick="execute()" class="operatorButton">=</button>
+        <button onclick="append('/')" class="operatorButton">/</button>
+        <button onclick="append('+')" class="operatorButton">+</button>
+        <button onclick="append('1')" class="numberButton">1</button>
+        <button onclick="append('2')" class="numberButton">2</button>
+        <button onclick="append('3')" class="numberButton">3</button>
+        <button onclick="append('-')" class="operatorButton">-</button>
+        <button onclick="append('4')" class="numberButton">4</button>
+        <button onclick="append('5')" class="numberButton">5</button>
+        <button onclick="append('6')" class="numberButton">6</button>
+        <button onclick="append('*')" class="operatorButton">*</button>
+        <button onclick="append('7')" class="numberButton">7</button>
+        <button onclick="append('8')" class="numberButton">8</button>
+        <button onclick="append('9')" class="numberButton">9</button>
+        <button onclick="canc()" class="operatorButton">C</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
